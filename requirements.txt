@@ -1,0 +1,20 @@
+# --- Core numeric stack (base for many deps) ---
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+matplotlib==3.9.4
+scikit-learn==1.6.1
+
+# --- Jupyter ecosystem (will pull most jupyter_* packages) ---
+jupyter==1.1.1
+jupyterlab==4.4.0
+ipywidgets==8.1.6
+
+# --- TensorFlow / Keras stack for macOS (brings in tensorflow==2.16.2 transitively) ---
+tensorflow==2.16.2
+
+# --- Graph / GNNs (depends on TF/Keras, numpy, scipy) ---
+spektral==1.3.1
+
+# --- Engineering / FEM / geometry ---
+calfem-python==3.6.11
