@@ -1,1 +1,6 @@
-.venv/
+.gnnvenv/
+.sinnvenv/
+models/
+datasets/
+data/
+codebase/__pycache__/
